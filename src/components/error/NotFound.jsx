@@ -3,6 +3,7 @@ import "./NotFound.css";
 
 
 const NotFound = () => {
+  
   return (
     <section className="page_404">
       <div className="container">

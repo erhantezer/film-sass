@@ -1,6 +1,7 @@
 import "./Home.scss";
 
 const Home = () => {
+    
     return (
         <div className="home-bgImg-container">
             <main className="home">
