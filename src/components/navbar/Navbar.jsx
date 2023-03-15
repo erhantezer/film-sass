@@ -9,7 +9,33 @@ const Navbar = () => {
                     <NavLink to="/"
                     className="nav__link"
                     style={{}}
-                    />
+                    >
+                        Home
+                    </NavLink>
+                </li>
+                <li className='nav__item'>
+                    <NavLink to="/"
+                    className="nav__link"
+                    style={{}}
+                    >
+                        About Me
+                    </NavLink>
+                </li>
+                <li className='nav__item'>
+                    <NavLink to="/"
+                    className="nav__link"
+                    style={{}}
+                    >
+                        My Projects
+                    </NavLink>
+                </li>
+                <li className='nav__item'>
+                    <NavLink to="/"
+                    className="nav__link"
+                    style={{}}
+                    >
+                        Contact
+                    </NavLink>
                 </li>
             </ul>
         </nav>
