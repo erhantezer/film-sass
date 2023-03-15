@@ -1,10 +1,14 @@
-
+import AppRouter from "./router/AppRouter";
+// import { RouterProvider } from "react-router-dom";
+// import { router } from "./router/router";
 
 function App() {
   return (
-    <div className="App">
- 
-    </div>
+    // <RouterProvider
+    //   router={router}
+    //   fallbackElement={<div>Loading...</div>}
+    // />// yeni versiyonla oluşturulmuş router yapısı
+    <AppRouter /> // eski versiyon
   );
 }
 
