@@ -6,21 +6,21 @@ const Navbar = () => {
         <nav className='nav'>
             <ul className='nav__list'>
                 <li className='nav__item'>
-                    <NavLink 
-                    to="/"
-                    className="nav__link"
-                    style={({isActive}) => {
-                        return {color: isActive ? "#ff652f" : "inherit"};
-                    }}
+                    <NavLink
+                        to="/"
+                        className="nav__link"
+                        style={({ isActive }) => {
+                            return { color: isActive ? "#ff652f" : "inherit" };
+                        }}
                     >
                         Home
                     </NavLink>
                 </li>
                 <li className='nav__item'>
-                    <NavLink 
-                    to="/"
-                    className="nav__link"
-                    style={({ isActive }) => {
+                    <NavLink
+                        to="/"
+                        className="nav__link"
+                        style={({ isActive }) => {
                             return { color: isActive ? "#ff652f" : "inherit" };
                         }}
                     >
@@ -28,9 +28,9 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li className='nav__item'>
-                    <NavLink 
-                    to="/"
-                    className="nav__link"
+                    <NavLink
+                        to="/"
+                        className="nav__link"
                         style={({ isActive }) => {
                             return { color: isActive ? "#ff652f" : "inherit" };
                         }}
@@ -39,9 +39,9 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li className='nav__item'>
-                    <NavLink 
-                    to="/"
-                    className="nav__link"
+                    <NavLink
+                        to="/"
+                        className="nav__link"
                         style={({ isActive }) => {
                             return { color: isActive ? "#ff652f" : "inherit" };
                         }}
