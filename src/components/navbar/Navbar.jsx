@@ -6,33 +6,45 @@ const Navbar = () => {
         <nav className='nav'>
             <ul className='nav__list'>
                 <li className='nav__item'>
-                    <NavLink to="/"
+                    <NavLink 
+                    to="/"
                     className="nav__link"
-                    style={{}}
+                    style={({isActive}) => {
+                        return {color: isActive ? "#ff652f" : "inherit"};
+                    }}
                     >
                         Home
                     </NavLink>
                 </li>
                 <li className='nav__item'>
-                    <NavLink to="/"
+                    <NavLink 
+                    to="/"
                     className="nav__link"
-                    style={{}}
+                    style={({ isActive }) => {
+                            return { color: isActive ? "#ff652f" : "inherit" };
+                        }}
                     >
                         About Me
                     </NavLink>
                 </li>
                 <li className='nav__item'>
-                    <NavLink to="/"
+                    <NavLink 
+                    to="/"
                     className="nav__link"
-                    style={{}}
+                        style={({ isActive }) => {
+                            return { color: isActive ? "#ff652f" : "inherit" };
+                        }}
                     >
                         My Projects
                     </NavLink>
                 </li>
                 <li className='nav__item'>
-                    <NavLink to="/"
+                    <NavLink 
+                    to="/"
                     className="nav__link"
-                    style={{}}
+                        style={({ isActive }) => {
+                            return { color: isActive ? "#ff652f" : "inherit" };
+                        }}
                     >
                         Contact
                     </NavLink>
