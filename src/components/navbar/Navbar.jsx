@@ -19,7 +19,7 @@ const Navbar = () => {
                 </li>
                 <li className='nav__item'>
                     <NavLink
-                        to="/"
+                        to="/about"
                         className="nav__link"
                         style={({ isActive }) => {
                             return { color: isActive ? "#ff652f" : "inherit" };
@@ -30,7 +30,7 @@ const Navbar = () => {
                 </li>
                 <li className='nav__item'>
                     <NavLink
-                        to="/"
+                        to="/projects"
                         className="nav__link"
                         style={({ isActive }) => {
                             return { color: isActive ? "#ff652f" : "inherit" };
@@ -41,7 +41,7 @@ const Navbar = () => {
                 </li>
                 <li className='nav__item'>
                     <NavLink
-                        to="/"
+                        to="/contacts"
                         className="nav__link"
                         style={({ isActive }) => {
                             return { color: isActive ? "#ff652f" : "inherit" };

@@ -1,9 +1,8 @@
 import React, { Suspense, lazy } from 'react'
-import Loading from '../../components/Loading';
 
 const Projects = () => {
+  
   const ProjectCards = lazy(() => import("../../components/ProjectCards"));
-
 
   // <Suspense fallback={<div>Loadings.....</div>}>
   //   <ProjectCards />
@@ -20,7 +19,7 @@ const Projects = () => {
       </div>
       <main className='projects'>
         <div className='projects__items'>
-          <Suspense fallback={<Loading />}> 
+          <Suspense fallback={<div>Loading....</div>}> 
             <ProjectCards/>
           </Suspense>
         </div>
