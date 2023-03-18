@@ -18,11 +18,13 @@ const Projects = () => {
         </div>
       </div>
       <main className='projects'>
+
         <div className='projects__items'>
           <Suspense fallback={<div>Loading....</div>}> 
             <ProjectCards/>
           </Suspense>
         </div>
+        
       </main>
     </>
   )
