@@ -11,7 +11,6 @@ const Projects = () => {
   //! return içine bunuda yazabiliriz
 
   return (
-    
     <>
       <div className='project-bgImg-container'>
         <div className='projects__bio-image'>
