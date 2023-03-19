@@ -13,8 +13,14 @@
 
         p{
             font-size: 1.2rem;
-            margin: 2rem;
+            margin: 3rem;
             line-height: 1.5rem;
+            text-align: justify;
+            text-indent: 2%;
+            transition: color 1.2s;
+            &:hover {
+                color: $secondary-color
+            }
         }
     }
 
@@ -35,9 +41,14 @@
         background-color: lighten($primary-color, 10%);
         padding: 1rem;
         border-bottom: 5px solid $secondary-color;
+        transition: all 1.5s;
+        &:hover {
+            transform: rotateX(60deg);
+        }
 
         h2,h3{
             margin: 0.5rem 0;
+            
 
         }
 
