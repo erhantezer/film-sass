@@ -21,7 +21,7 @@ const Footer = () => {
             <i className="fab fa-github fa-2x"></i>
           </a>
         </div>
-        <div className="copyright">&copy; Copyright 2023</div>
+        <div className="copyright">&copy; Copyright {new Date().getFullYear()}</div>
       </footer>
     </>
   )
