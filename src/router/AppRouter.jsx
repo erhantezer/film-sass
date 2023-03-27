@@ -8,8 +8,6 @@ import Contact from '../pages/contact/Contact'
 import NotFound from '../components/error/NotFound'
 import Footer from '../components/footer/Footer'
 
-
-
 const AppRouter = () => {
   return (
     <BrowserRouter>
