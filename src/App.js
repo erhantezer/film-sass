@@ -8,8 +8,8 @@ function App() {
     // <RouterProvider
     //   router={router}
     //   fallbackElement={<div>Loading...</div>}
-    // />// yeni versiyonla oluşturulmuş router yapısı
-    <AppRouter /> // eski versiyon
+    //!  yeni versiyonla oluşturulmuş router yapısı
+    <AppRouter /> //! eski versiyon
   );
 }
 

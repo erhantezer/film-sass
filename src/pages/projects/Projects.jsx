@@ -4,7 +4,14 @@ import "./Projects.scss";
 const Projects = () => {
   
   const ProjectCards = lazy(() => import("../../components/ProjectCards"));
+  //! lazy loading
+  //! ProjectCards component'ını dinamik olarak yüklemiş olduk. Şimdi de bu component'ı render etme kısmına geçelim.
 
+  //! Dinamik olarak yüklediğimiz component'ı render edip ve bu component yüklenene kadar geçen zamanda 
+  //! yedek bir içerik gösterebilmemize yarayan React'ın özel component'ı Suspense'dir. 
+  //! Suspense component'ı fallback adında tek bir props alır. Ve bu fallback props'u dinamik component'ımız 
+  //! yüklenene kadar veya component yüklenmesinde herhangi bir sorun olduğu zaman render edilecek içeriği 
+  //! belirttiğimiz yerdir.
   // <Suspense fallback={<div>Loadings.....</div>}>
   //   <ProjectCards />
   // </Suspense>
