@@ -24,12 +24,14 @@ const Projects = () => {
           <h1>My Projects</h1>
         </div>
       </div>
-      <main className='projects'>
 
+      <main className='projects'>
         <div className='projects__items'>
+
           <Suspense fallback={<div>Loading....</div>}> 
             <ProjectCards/>
           </Suspense>
+          
         </div>
         
       </main>
