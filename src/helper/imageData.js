@@ -5,6 +5,7 @@ import img4 from "../assets/img/project-4.jpg";
 import img5 from "../assets/img/project-5.jpg";
 import img6 from "../assets/img/project-6.jpg";
 
+//! array yapısına çevirip istenilen yerde çağırıp map yapıp kullanmak için bu şekilde oluşturduk
 export const imageData = [
   { image: img1 },
   { image: img2 },
