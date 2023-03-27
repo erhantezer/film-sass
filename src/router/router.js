@@ -7,7 +7,7 @@ import About from "../pages/about/About";
 import Projects from "../pages/projects/Projects";
 import Contact from "../pages/contact/Contact";
 
-
+//! yeni react router yöntemi ama artık framewoklar kullanılacak nextjs gibi
 
 export const router = createBrowserRouter([
     {
