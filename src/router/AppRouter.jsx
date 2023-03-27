@@ -14,19 +14,23 @@ const AppRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
+
         <Route element={
         <>
           <Navbar/>
           <Outlet/>
           <Footer/>
-        </>
-        }>
+        </>}
+        >
+
           <Route path='/' element={<Home/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/projects' element={<Projects/>} />
           <Route path='/contacts' element={<Contact/>} />
         </Route>
+
         <Route path='*' element={<NotFound/>} />
+
       </Routes>
     </BrowserRouter>
   )
